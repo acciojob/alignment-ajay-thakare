@@ -1,13 +1,12 @@
-/*  your css code here. If applicable */
  h1 {
       text-align: center;
     }
     table.middle {
-      border: 1px solid black;
-      border-spacing: 1px;
-      padding: 1px;
+      border-collapse: collapse;
+      width: 80%;
+      margin: 10px auto;
     }
-    table.middle td {
+    table.middle, table.middle td {
       border: 1px solid black;
       padding: 5px;
     }
@@ -24,4 +23,9 @@
     .blue {
       background-color: blue;
       color: white;
+    }
+    #t-image img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
     }
